@@ -45,7 +45,7 @@ environment.loaders.append('html', {
 });
 
 
-environment.loaders.append('angular2-template-loader', {
+environment.loaders.append('angular2-template-loader', { //Needed for AOT & JIT now
   test: /\.(ts|tsx)?(\.erb)?$/,
   use: [
     {
