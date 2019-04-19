@@ -13,8 +13,11 @@
     "@types/node": "^11.13.5",
     "angular2-template-loader": "^0.6.2",
     "core-js": "^2.5.7",
+    "css-loader": "^2.1.1",
     "html-loader": "^0.5.5",
     "rxjs": "^6.4.0",
+    "sass-loader": "^7.1.0",
+    "to-string-loader": "^1.1.5",
     "ts-loader": "^5.3.3",
     "typescript": "^3.2.4",
     "zone.js": "^0.9.0"
