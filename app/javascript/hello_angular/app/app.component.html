@@ -1,6 +1,10 @@
 <h1>Hello {{name}}, from the view.</h1>
 <h2>FYI, the rails environment is: {{str}}</h2>
 
+<h3>Boolean from ERB</h3>
+<span *ngIf="bool">I should be hidden</span>
+<span *ngIf="!bool">I should be visible</span>
+
 <h3>Items from simple ERB Array</h3>
 <ul>
   <li *ngFor="let type of arr">{{type}}</li>
