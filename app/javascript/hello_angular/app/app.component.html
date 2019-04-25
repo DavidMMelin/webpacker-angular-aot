@@ -11,3 +11,18 @@
   <li>Value for 'key': {{obj.key}}</li>
   <li>Value for 'pointer': {{obj.pointer}}</li>
 </ul>
+
+<h3>Items from ERB Object key pointing to an array</h3>
+<ul>
+  <li *ngFor="let animal of objArr.arr">{{animal}}</li>
+</ul>
+
+<h3>Items from ERB Object key pointing to an array</h3>
+<ul>
+  <li>Value for 'objArr.obj.sound': {{objArr.obj.sound}}</li>
+</ul>
+
+<h3>Items from ERB Object key pointing to an array or objects</h3>
+<ul>
+  <li *ngFor="let person of objArr.objArr">Name: {{person.name}}</li>
+</ul>
