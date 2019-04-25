@@ -1,7 +1,13 @@
 <h1>Hello {{name}}, from the view.</h1>
 <h2>FYI, the rails environment is: {{str}}</h2>
 
-<h5>Items from ERB Array</h5>
+<h3>Items from simple ERB Array</h3>
 <ul>
   <li *ngFor="let type of arr">{{type}}</li>
+</ul>
+
+<h3>Items from simple ERB Object</h3>
+<ul>
+  <li>Value for 'key': {{obj.key}}</li>
+  <li>Value for 'pointer': {{obj.pointer}}</li>
 </ul>
