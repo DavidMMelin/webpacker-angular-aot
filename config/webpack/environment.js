@@ -1,5 +1,6 @@
 const { environment } = require('@rails/webpacker')
 const { config } = require('@rails/webpacker');
+const erb        = require('./loaders/erb');
 const typescript =  require('./loaders/typescript')
 
 const AngularCompilerPlugin = require('@ngtools/webpack').AngularCompilerPlugin;
@@ -55,4 +56,5 @@ environment.loaders.append('angular2-template-loader', { //Needed for AOT & JIT 
 })
 
 environment.loaders.prepend('typescript', typescript)
+environment.loaders.append('erb', erb);
 module.exports = environment

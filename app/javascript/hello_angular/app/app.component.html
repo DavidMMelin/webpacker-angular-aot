@@ -1,1 +1,7 @@
-<h1>Hello {{name}}, from the view</h1>
+<h1>Hello {{name}}, from the view.</h1>
+<h2>FYI, the rails environment is: {{str}}</h2>
+
+<h5>Items from ERB Array</h5>
+<ul>
+  <li *ngFor="let type of arr">{{type}}</li>
+</ul>

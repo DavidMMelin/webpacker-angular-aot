@@ -15,6 +15,7 @@
     "core-js": "^2.5.7",
     "css-loader": "^2.1.1",
     "html-loader": "^0.5.5",
+    "rails-erb-loader": "^5.5.2",
     "rxjs": "^6.4.0",
     "sass-loader": "^7.1.0",
     "to-string-loader": "^1.1.5",
